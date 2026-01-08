@@ -1,21 +1,21 @@
 import "./App.css";
 import HomePage from "./components/HomePage";
-// import AboutPage from "./components/AboutPage";
-// import WorkPage from "./components/WorkPage";
+import AboutPage from "./components/AboutPage";
+import WorkPage from "./components/WorkPage";
 // import ReviewsPage from "./components/ReviewsPage";
 // import ContactPage from "./components/ContactPage";
-// import FooterPage from "./components/FooterPage";
+import FooterPage from "./components/Footerpage"
 
 function App() {
   return (
     <>
       <div className="App">
         <HomePage />
-        {/* <AboutPage /> */}
-        {/* <WorkPage /> */}
+        <AboutPage />
+        <WorkPage />
         {/* <ReviewsPage /> */}
         {/* <ContactPage /> */}
-        {/* <FooterPage /> */}
+        <FooterPage />
       </div>
     </>
   );
