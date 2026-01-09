@@ -2,9 +2,9 @@ import "./App.css";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 import WorkPage from "./components/WorkPage";
-// import ReviewsPage from "./components/ReviewsPage";
-// import ContactPage from "./components/ContactPage";
-import FooterPage from "./components/Footerpage"
+import ReviewsPage from "./components/ReviewsPage";
+import ContactPage from "./components/ContactPage";
+import FooterPage from "./components/FooterPage"
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
         <HomePage />
         <AboutPage />
         <WorkPage />
-        {/* <ReviewsPage /> */}
-        {/* <ContactPage /> */}
+        <ReviewsPage />
+        <ContactPage />
         <FooterPage />
       </div>
     </>
